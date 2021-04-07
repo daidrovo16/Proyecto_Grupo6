@@ -1,0 +1,547 @@
+@font-face {
+    font-family: Hind;
+    src: local("Hind"), local("Hind-Regular"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/hind-regular-webfont.b13372.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Hind;
+    src: local("Hind"), local("Hind-Medium"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/hind-medium-webfont.59f616.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Hind;
+    src: local("Hind"), local("Hind-SemiBold"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/hind-semibold-webfont.55081e.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Hind;
+    src: local("Hind"), local("Hind-Bold"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/hind-bold-webfont.e74224.woff2) format("woff2"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/hind-bold-webfont.00bd87.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: icon-features;
+    src: url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/17bf933053b93c4860cc-icon-features.eot#iefix) format("embedded-opentype"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/17bf933053b93c4860cc-icon-features.woff) format("woff"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/17bf933053b93c4860cc-icon-features.woff2) format("woff2"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/17bf933053b93c4860cc-icon-features.ttf) format("truetype"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/17bf933053b93c4860cc-icon-features.svg#icon-features) format("svg");
+    font-display: swap
+}
+
+.icon-f {
+    line-height: 1
+}
+
+.icon-f:before {
+    font-family: icon-features !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    vertical-align: top
+}
+
+.icon-f-ambiente:before {
+    content: "\F101"
+}
+
+.icon-f-ambientes:before {
+    content: "\F102"
+}
+
+.icon-f-amoblado:before {
+    content: "\F103"
+}
+
+.icon-f-antiguedad:before {
+    content: "\F104"
+}
+
+.icon-f-bano:before {
+    content: "\F105"
+}
+
+.icon-f-cochera:before {
+    content: "\F106"
+}
+
+.icon-f-disposicion:before {
+    content: "\F107"
+}
+
+.icon-f-dormitorio:before {
+    content: "\F108"
+}
+
+.icon-f-inmueble:before {
+    content: "\F109"
+}
+
+.icon-f-luminosidad:before {
+    content: "\F10A"
+}
+
+.icon-f-metros:before {
+    content: "\F10B"
+}
+
+.icon-f-orientacion:before {
+    content: "\F10C"
+}
+
+.icon-f-personas:before {
+    content: "\F10D"
+}
+
+.icon-f-remate:before {
+    content: "\F10E"
+}
+
+.icon-f-scubierta:before {
+    content: "\F10F"
+}
+
+.icon-f-seguridad:before {
+    content: "\F110"
+}
+
+.icon-f-stotal:before {
+    content: "\F111"
+}
+
+.icon-f-toilete:before {
+    content: "\F112"
+}
+
+.icon-f-unidades-b:before {
+    content: "\F113"
+}
+
+.icon-f-unidades:before {
+    content: "\F114"
+}
+
+@font-face {
+    font-family: icon-generals;
+    src: url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/8f3694bd8dcea251e4dc-icon-generals.eot#iefix) format("embedded-opentype"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/8f3694bd8dcea251e4dc-icon-generals.woff) format("woff"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/8f3694bd8dcea251e4dc-icon-generals.woff2) format("woff2"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/8f3694bd8dcea251e4dc-icon-generals.ttf) format("truetype"), url(https://img10.naventcdn.com/listado/RPLISv6.13.4-RC1/8f3694bd8dcea251e4dc-icon-generals.svg#icon-generals) format("svg");
+    font-display: swap
+}
+
+.icon-g {
+    line-height: 1
+}
+
+.icon-g:before {
+    font-family: icon-generals !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    vertical-align: top
+}
+
+.icon-g-360:before {
+    content: "\F101"
+}
+
+.icon-g-add:before {
+    content: "\F102"
+}
+
+.icon-g-alertas:before {
+    content: "\F103"
+}
+
+.icon-g-apto-credito:before {
+    content: "\F104"
+}
+
+.icon-g-backarrow:before {
+    content: "\F105"
+}
+
+.icon-g-borrar:before {
+    content: "\F106"
+}
+
+.icon-g-calendar:before {
+    content: "\F107"
+}
+
+.icon-g-camera:before {
+    content: "\F108"
+}
+
+.icon-g-cantidad-fotos:before {
+    content: "\F109"
+}
+
+.icon-g-chat:before {
+    content: "\F10A"
+}
+
+.icon-g-chatbot:before {
+    content: "\F10B"
+}
+
+.icon-g-check-ok:before {
+    content: "\F10C"
+}
+
+.icon-g-check:before {
+    content: "\F10D"
+}
+
+.icon-g-chevron-down:before {
+    content: "\F10E"
+}
+
+.icon-g-chevron-left:before {
+    content: "\F10F"
+}
+
+.icon-g-chevron-right:before {
+    content: "\F110"
+}
+
+.icon-g-chevron-up:before {
+    content: "\F111"
+}
+
+.icon-g-close:before {
+    content: "\F112"
+}
+
+.icon-g-contactados:before {
+    content: "\F113"
+}
+
+.icon-g-contacted-selected:before {
+    content: "\F114"
+}
+
+.icon-g-contacted:before {
+    content: "\F115"
+}
+
+.icon-g-cross-error:before {
+    content: "\F116"
+}
+
+.icon-g-cucarda:before {
+    content: "\F117"
+}
+
+.icon-g-denunciar:before {
+    content: "\F118"
+}
+
+.icon-g-development:before {
+    content: "\F119"
+}
+
+.icon-g-directorio:before {
+    content: "\F11A"
+}
+
+.icon-g-dueno-directo:before {
+    content: "\F11B"
+}
+
+.icon-g-expandir:before {
+    content: "\F11C"
+}
+
+.icon-g-facebook:before {
+    content: "\F11D"
+}
+
+.icon-g-favorito:before {
+    content: "\F11E"
+}
+
+.icon-g-favoritos:before {
+    content: "\F11F"
+}
+
+.icon-g-fecha-publicacion:before {
+    content: "\F120"
+}
+
+.icon-g-fecha-publicado:before {
+    content: "\F121"
+}
+
+.icon-g-fecha:before {
+    content: "\F122"
+}
+
+.icon-g-filter:before {
+    content: "\F123"
+}
+
+.icon-g-galeria:before {
+    content: "\F124"
+}
+
+.icon-g-google-plus:before {
+    content: "\F125"
+}
+
+.icon-g-guaranty:before {
+    content: "\F126"
+}
+
+.icon-g-hamburger:before {
+    content: "\F127"
+}
+
+.icon-g-impresora:before {
+    content: "\F128"
+}
+
+.icon-g-info-circle:before {
+    content: "\F129"
+}
+
+.icon-g-info:before {
+    content: "\F12A"
+}
+
+.icon-g-ingresar:before {
+    content: "\F12B"
+}
+
+.icon-g-instagram:before {
+    content: "\F12C"
+}
+
+.icon-g-inview:before {
+    content: "\F12D"
+}
+
+.icon-g-like:before {
+    content: "\F12E"
+}
+
+.icon-g-listado:before {
+    content: "\F12F"
+}
+
+.icon-g-location-solid:before {
+    content: "\F130"
+}
+
+.icon-g-location:before {
+    content: "\F131"
+}
+
+.icon-g-logo-adondevivir:before {
+    content: "\F132"
+}
+
+.icon-g-logo-compreoalquile:before {
+    content: "\F133"
+}
+
+.icon-g-logo-conlallave:before {
+    content: "\F134"
+}
+
+.icon-g-logo-imoveiscuritiba:before {
+    content: "\F135"
+}
+
+.icon-g-logo-imovelweb:before {
+    content: "\F136"
+}
+
+.icon-g-logo-inmuebles24:before {
+    content: "\F137"
+}
+
+.icon-g-logo-llave:before {
+    content: "\F138"
+}
+
+.icon-g-logo-plusvalia:before {
+    content: "\F139"
+}
+
+.icon-g-logo-wimoveis:before {
+    content: "\F13A"
+}
+
+.icon-g-logo-zonaprop:before {
+    content: "\F13B"
+}
+
+.icon-g-map-enter-fs:before {
+    content: "\F13C"
+}
+
+.icon-g-map-exit-fs:before {
+    content: "\F13D"
+}
+
+.icon-g-menu-fav:before {
+    content: "\F13E"
+}
+
+.icon-g-menu:before {
+    content: "\F13F"
+}
+
+.icon-g-mundo:before {
+    content: "\F140"
+}
+
+.icon-g-noticias:before {
+    content: "\F141"
+}
+
+.icon-g-ofrece-factura:before {
+    content: "\F142"
+}
+
+.icon-g-ofrece-financiamiento:before {
+    content: "\F143"
+}
+
+.icon-g-pencil:before {
+    content: "\F144"
+}
+
+.icon-g-pinterest:before {
+    content: "\F145"
+}
+
+.icon-g-pixelplus:before {
+    content: "\F146"
+}
+
+.icon-g-publicar:before {
+    content: "\F147"
+}
+
+.icon-g-recorrido:before {
+    content: "\F148"
+}
+
+.icon-g-remate-hipotecario:before {
+    content: "\F149"
+}
+
+.icon-g-reservado:before {
+    content: "\F14A"
+}
+
+.icon-g-sad-face:before {
+    content: "\F14B"
+}
+
+.icon-g-search:before {
+    content: "\F14C"
+}
+
+.icon-g-searchb:before {
+    content: "\F14D"
+}
+
+.icon-g-seguro-caucion:before {
+    content: "\F14E"
+}
+
+.icon-g-sort:before {
+    content: "\F14F"
+}
+
+.icon-g-success:before {
+    content: "\F150"
+}
+
+.icon-g-suma:before {
+    content: "\F151"
+}
+
+.icon-g-tab-foto:before {
+    content: "\F152"
+}
+
+.icon-g-tab-mapa:before {
+    content: "\F153"
+}
+
+.icon-g-tab-plano:before {
+    content: "\F154"
+}
+
+.icon-g-tab-street:before {
+    content: "\F155"
+}
+
+.icon-g-tag-360:before {
+    content: "\F156"
+}
+
+.icon-g-tag-video:before {
+    content: "\F157"
+}
+
+.icon-g-telefono:before {
+    content: "\F158"
+}
+
+.icon-g-telefono2:before {
+    content: "\F159"
+}
+
+.icon-g-terminado:before {
+    content: "\F15A"
+}
+
+.icon-g-three-buildings:before {
+    content: "\F15B"
+}
+
+.icon-g-twitter:before {
+    content: "\F15C"
+}
+
+.icon-g-valuador:before {
+    content: "\F15D"
+}
+
+.icon-g-video:before {
+    content: "\F15E"
+}
+
+.icon-g-viewed-selected:before {
+    content: "\F15F"
+}
+
+.icon-g-viewed:before {
+    content: "\F160"
+}
+
+.icon-g-vistos:before {
+    content: "\F161"
+}
+
+.icon-g-warning:before {
+    content: "\F162"
+}
+
+.icon-g-whatsapp:before {
+    content: "\F163"
+}
+
+.icon-g-youtube:before {
+    content: "\F164"
+}
+
+
